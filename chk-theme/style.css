@@ -1,0 +1,108 @@
+/*
+Theme name: chk theme
+Author: Johan Martinson
+*/
+
+body{
+	background: #FFF
+}
+
+/*header {
+	
+	width: 100%;
+	height: 215px;
+	text-align: center;
+
+}*/
+
+.header{
+	/*background: url(../../themes/chk-theme/images/frontpage.png);*/
+	width: 100%;
+	height: 215px;
+	text-align: center;
+}
+
+.nav-menu{
+	background-color: #17438A
+}
+
+.col-6{
+
+}
+
+.Sponsorer{
+
+	
+}
+
+.next-game{
+
+
+}
+
+.box{
+	background-color: #FFF
+}
+
+.side-menu{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	/*border: 2px solid #98B9EE;*/
+}
+
+.side-li{
+	float: none;
+	clear: left;
+	border-bottom: 2px dotted black;
+}
+
+.side-li a{
+	display: block;
+	color: black;
+	text-align: left;
+	padding: 8px 12px;
+	text-decoration: none;
+}
+
+.side-li a:hover{
+	background-color: #FFF;
+}
+
+.side-li:last-child{
+	float: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #98B9EE;
+}
+
+li:last-child{
+	float:right;
+}
+
+.active{
+  background-color: #98B9EE;
+  color: white;
+}
